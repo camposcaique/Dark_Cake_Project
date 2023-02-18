@@ -1,10 +1,10 @@
 # Pokedex
 
-![preview](./images/)
+![preview](./images/darcakeprt.png)
 
 >Site de loja de bolos e doces totalmente interativa, utilizando HTML, CSS e JAVASCRIPT.
 
-[Clique aqui para acessar](https://camposcaique.github.io/pokedex_project)
+[Clique aqui para acessar](https://camposcaique.github.io/darkcake2.0/)
 
 ## 🔨 Tecnologias
 
