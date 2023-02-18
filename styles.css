@@ -128,32 +128,50 @@ body {
 .nav {
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 .card {
     border-radius: 50%;
 }
 
-.rodape {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10%;
-}
-
-.rodape a {
-    text-decoration: none;
+.footer {
+    background-color: #272424;
+    color: #c0b0b0;
     padding: 20px;
-    margin-bottom: 200px;
-    font-size: 20px;
-    color: rgb(241, 241, 241);
-    transition: 800ms;
-}
-
-.rodape a:hover {
-    color: rgb(223, 139, 128);
-}
+    text-align: center;
+  }
+  
+  .footer p {
+    margin-bottom: 10px;
+  }
+  
+  .footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .footer ul li:last-child {
+    margin-right: 0;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .footer {
+      padding: 10px;
+    }
+    
+    .footer ul li {
+      display: block;
+      margin: 0 0 10px;
+    }
+  }
 
 .pagina1 {
     width: 100%;
