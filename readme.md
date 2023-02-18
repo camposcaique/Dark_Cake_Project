@@ -1,4 +1,4 @@
-# Pokedex
+# Site de loja de bolos e doces DARK CAKE.
 
 ![preview](./images/darcakeprt.png)
 
