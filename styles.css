@@ -186,3 +186,42 @@ body {
 #iframe {
     padding: 200%;
 }
+ .text {
+    padding: 100px;
+    position: relative;
+    margin: auto;
+    text-align: center;
+
+ }
+ .button {
+  background-color:rgba(39, 36, 36, 0.8);
+  color: white;
+  height: 3.5rem;
+  display: inline-flex;
+  align-items: center;
+  padding: 0 2rem;
+  border-radius: 0.55rem;
+  font: 500 1rem "DM Sans", sans-serif;
+  transition: 0.8s;
+  margin-top: 50px;
+ }
+
+ .button:hover {
+    background: crimson;
+ }
+
+ .socialmedia {
+    font-size: 20px;
+ }
+
+ #facebook {
+    width: 50px;
+ }
+
+ #instagram {
+    width: 50px;
+ }
+
+ #whatsapp {
+    width: 50px;
+ }
