@@ -1,7 +1,7 @@
 # Site de loja de bolos e doces DARK CAKE.
 (Em construção)
 
-![preview](./images/darcakeprt.png)
+![preview](./images/darkcakeprt.png)
 
 >Site de loja de bolos e doces totalmente interativa, utilizando HTML, CSS e JAVASCRIPT.
 
