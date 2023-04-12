@@ -4,29 +4,85 @@
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 <link rel="icon" type="image/png" href="/images/favicon.jpg">
-
+  <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="styles.css">  
 <head>
-    <title>Dark Cake</title>
+
+    <title>Dark Cake Store</title>
 </head>
-
+      
 <body>
+<!-- Barra de Navegação -->
+            <div class="nav">
 
-    <div class="pagina1">
-        <meta charset="utf-8" />
-        <link rel="stylesheet" type="text/css" href="styles.css">
-        <div class="nav">
-
-            <img class="logo" src="./images/favicon.jpg" alt="logo_size">
+            <img class="logo" src="./images/img_logo.jpg" alt="logo_size">
 
             <div class="links">
                 <a href="index.html">Dark Cake</a>
-                <a href="/bolos.html">Bolos</a>
+                <a href="./bolos.html">Bolos</a>
                 <a href="">Doces</a>
                 <a href="">Valores</a>
                 <a href="">Contato</a>
             </div>
         </div>
-    </div>
+
+
+<!-- Carrousel -->
+       <div class="slider">
+
+        <div class="slides">
+<!-- Radio Buttons -->
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+<!-- Fim Radio Buttons -->
+
+
+<!-- Slide Images -->
+            <div class="slide first">
+                <img src="./images/bolo.jpg" alt="Bolo do Harry Potter"/>
+            </div>
+            <div class="slide">
+                <img src="./images/darcake2.jpg" alt="Bolo do Harry Potter2"/>
+            </div>
+            <div class="slide">
+                <img src="./images/harry3.jpeg" alt="Bolo do Harry Potter3"/>
+            </div>
+            <div class="slide">
+                <img src="./images/harry1.jpeg" alt="Bolo do Harry Potter4"/>
+            </div>
+<!-- FIM Slide Images -->
+
+<!-- Navigation auto -->
+
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+
+
+
+
+        </div>
+
+        <div class="manual-navigation">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+        </div>
+
+
+
+       </div> 
+
+
+       
+       <hr>
+
 <br>
     <div class="container">
         <div class="card">
@@ -39,7 +95,7 @@
             <div class="face face2">
                 <div class="content">
                     <p>Bolos para casamentos, aniversários, temáticos e bentô cakes</p>
-                    <a href="">Ver todos</a>
+                    <a href="./bolos.html">Ver todos</a>
                 </div>
             </div>
         </div>
@@ -101,8 +157,8 @@
         </ul>
 
         </div>
-
+        <script src="script.js"></script>
       </footer>
-</body>
 
+    </body>
 </html>

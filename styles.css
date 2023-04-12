@@ -1,6 +1,6 @@
 * {
-    margin: auto;
-    padding: auto;
+    margin: center;
+    padding: center;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
@@ -8,22 +8,31 @@
 body {
     background-color: #333;
     width: 100%;
-    height: 50vh;
+    height: 100vh;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
     width: 1000px;
-    position: center;
     display: flex;
     justify-content: space-between;
+    margin: auto;
+
+ 
 }
 
 .container .card {
     position: center;
+    justify-content: space-around;
+    
 }
+
 
 .container .card .face {
     width: 300px;
@@ -173,14 +182,14 @@ body {
     }
   }
 
-.pagina1 {
-    width: 100%;
+.div {
+    width: 50%;
     height: 70vh;
     background-color: black;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    background-image: url("./images/darcake2.jpg");
+
 }
 
 #iframe {
@@ -225,3 +234,113 @@ body {
  #whatsapp {
     width: 50px;
  }
+
+ /* carousel */
+
+ 
+ .slider {
+    margin: 0 auto;
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+
+ }
+
+ .slides {
+    width: 400%;
+    height: 400px;
+    display: flex;
+ }
+
+ .slides input {
+    display: none;
+ }
+
+ .slide {
+    width: 25%;
+    position: relative;
+ }
+
+ .slide img {
+    width: 800px;
+    margin-top: 30px;
+    
+ }
+
+ .manual-navigation {
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+ }
+
+ .manual-btn {
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+ }
+
+ .manual-btn:not(:Last-child) {
+    margin-right: 40px;
+ }
+
+ .manual-btn:hover {
+    background-color: white;
+ }
+ 
+ #radio1:checked ~ .first {
+    margin-left: 0;
+ }
+
+ #radio2:checked ~ .first {
+    margin-left: -25%;
+ }
+
+ #radio3:checked ~ .first {
+    margin-left: -50%;
+ }
+
+ #radio4:checked ~ .first {
+    margin-left: -75%;
+ }
+
+ .navigation-auto div {
+    border: 2px solid crimson;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+
+ }
+
+ .navigation-auto {
+    position: absolute;
+    width: 800px;
+    margin-top: 360px;
+    display: flex;
+    justify-content: center;    
+
+}
+
+.navigation-auto div:not(:last-child) {
+    margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1 {
+    background-color: white;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2 {
+    background-color: white;
+
+
+}#radio3:checked ~ .navigation-auto .auto-btn3 {
+    background-color: white;
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4 {
+    background-color: white;
+}
