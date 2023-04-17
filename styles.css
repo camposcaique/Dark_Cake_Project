@@ -14,7 +14,8 @@ body {
 }
 
 .container {
-    width: 1000px;
+    max-width: 1000px;
+    min-width: 300px;
     display: flex;
     justify-content: space-between;
     margin: auto;
@@ -23,11 +24,12 @@ body {
 }
 
 .container .card {
+    max-width: 1200px;
+    min-width: 300px;
     position: center;
     justify-content: space-around;
     
 }
-
 
 .container .card .face {
     width: 300px;
@@ -179,6 +181,7 @@ body {
   }
 
 .container-about {
+    text-decoration: none;
     background-color: black;
     margin-right: 0px;
     padding: 50px;
@@ -187,7 +190,8 @@ body {
     display: grid;
     grid-template-columns: 2fr 2fr;
     grid-auto-rows: 200px;
-    grid-template-areas: 
+    grid-template-areas:
+    
     "img h1"
     "img p"
     "img p"
@@ -195,30 +199,30 @@ body {
 }
 
 .container-about img {
-    width: 95%;
+    position: relative;
+    width: 100%;
     border-radius: 100%;
     grid-area: img;
-    overflow: h;
+
+
 
 }
 
 .container-about h1 {
+    font-size: 5.0em;
     font-family: 'Lobster', cursive;
-    font-size: 100px;
     grid-area: h1;
     color: rgb(255, 255, 255);
-    text-align: center;
-    
 }
 
 
 .container-about p {
+    width: 100%;
     font-family: 'Roboto', cursive;
-    font-size: 22px;
+    font-size: 21px;
     padding: auto;
     color: white;
     grid-area: p;
-
 
 }
 
@@ -247,10 +251,11 @@ body {
 
  
  .slider {
-    margin: 0 auto;
+    margin: auto;
     width: 1000px;
     height: 500px;
     overflow: hidden;
+    margin-bottom: 20;
 
  }
 
@@ -265,6 +270,7 @@ body {
  }
 
  .slide {
+    margin-top: -45px;
     width: 25%;
     position: relative;
  }
