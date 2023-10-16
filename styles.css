@@ -267,12 +267,14 @@ body {
 
  .slides input {
     display: none;
+    border-radius: 10px;
  }
 
  .slide {
     margin-top: -45px;
     width: 25%;
     position: relative;
+  
  }
 
  .slide img {
@@ -374,5 +376,48 @@ body {
 .caique-campos a:hover {
     transition: 0.1;
     color: #6d6868;
+
+}
+
+button {
+    margin-top: 2%;
+    margin-bottom: 3%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 420px;
+    height: 52px;
+    border-radius: 5px;
+    background-color: black;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 0px gray;
+    transition: transform 200ms ease-in-out;
+
+}
+
+button a {
+    margin-top: 2%;
+    margin-bottom: 3%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 420px;
+    height: 52px;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    cursor: pointer;    
+    text-decoration: none;
+}
+
+button:hover {
+    transform: scale(1.1);
+    text-decoration: none;
+
+}
+
+button:hover a {
+    transform: scale(1.1);
+    text-decoration: none;
 
 }
