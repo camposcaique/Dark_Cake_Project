@@ -1,5 +1,4 @@
 # Site de loja de bolos e doces DARK CAKE.
-(Em construção)
 
 ![preview](./images/darkcakeprt.png)
 
